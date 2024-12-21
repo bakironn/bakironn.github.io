@@ -11,8 +11,8 @@ body {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 200px;
-    background-image: url("skyblue dot.jpg");
+    width: 210px;
+    background-image: url("image/skyblue dot.jpg");
     padding: 20px;
     overflow-y: auto;
 }
@@ -49,13 +49,19 @@ body {
     border-radius: 8px;
 }
 
+#me {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border-radius: 8px;
+}
+
 #content {
     margin-left: 220px;
     padding: 40px 40px;
 }
 
 #header {
-    background-image: url("Pattern.jpg");
+    background-image: url("image/Pattern.jpg");
     text-align: center;
     padding: 30px;
     border-radius: 515px;
