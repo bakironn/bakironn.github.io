@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>video archive</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="sidebar">
-        <div id="me" class="me">
-            <!-- <div style="text-align: center; margin-top: 3px;">
-                <button id="hamsterButton" style="border: none; background: none; cursor: pointer;">
-                    <img src="" style="width: 150px; border-radius: 5%;">
-                </button>
-                <p>👉햄스터의 볼을<br>꼬집어 보세요!👈</p>
-            </div> -->
-
+        <div id="white" class="white">
             <div style="text-align: center; margin-top: 0px;">
                 <h2>🐹 먹이주기</h2>
                 <div>
-                    <img id="hamster" src="./image/ham.jpg" alt="햄스터" style="width: 150px; border-radius: 5%; margin-bottom: 0px; cursor: pointer;">
+                    <img id="hamster" class="hamster" src="./image/ham.jpg" alt="햄스터" style="width: 150px; border-radius: 5%; margin-bottom: 0px; cursor: pointer;">
                 </div>
                 <div>
-                    <img id="food" src="./image/before.png" alt="햄스터 먹이" style="width: 100px; cursor: pointer;">
+                    <img id="food" class="food" src="./image/before.png" alt="햄스터 먹이" style="width: 100px; cursor: pointer;">
                 </div>
             </div>
-            
         </div>
         <hr>
         <h2>📎 목차</h2>
@@ -47,11 +38,13 @@
             </li>
         </ul>
         </div>
-        <h2>📍 프로필</h2>
-        <div id="me" class="me">
-            <div style="text-align: center; margin-top: 50px;">
+        <hr>
+        <h2>📍 정보</h2>
+        <div id="white" class="white">
+            <div style="text-align: left; margin-top: 5px;">
             <br>
-            📆 2024-2<br>
+            📆 2024년 가을학기<br>
+            📚 웹프로그래밍기초<br>
             🏡 경영학부<br>
             👩 202401549 박혜련
             </div>
@@ -62,11 +55,12 @@
         <div id="header" style="margin-left: 20px; margin-right: 20px;">
             <br><br><br><br><br><br>
             <h1>Video Archive ✨</h1>
-            <span style="color:rgb(51, 51, 51)">안녕하세요! 방문해주셔서 감사합니다. 이곳에서는 저의 취향이 담긴 영상들을 공유합니다.<br>
-            재밌게 감상하시고 오늘도 좋은 하루 보내세요.🍀</span>
+            <div id="letter" class="letter">
+                <span style="color:rgb(51, 51, 51)">안녕하세요! 방문해주셔서 감사합니다. 이곳에서는 저의 취향이 담긴 영상들을 공유합니다.<br>
+                재밌게 감상하시고 오늘도 좋은 하루 보내세요.🍀</span>
+            </div>
         </div>
 
-        <!-- Section 1 - 웃긴 영상 -->
         <div id="section1" class="category" style="margin-left: 20px; margin-right: 20px;">
             <h2>🤣 웃긴 영상</h2>
             <div class="videos">
@@ -75,7 +69,6 @@
             </div>
         </div>
 
-        <!-- Section 2 - 귀여운 영상 -->
         <div id="section2" class="category" style="margin-left: 20px; margin-right: 20px;">
             <h2>💕 귀여운 영상</h2>
             <div id="section2-1" class="subcategory">
@@ -94,7 +87,6 @@
             </div>
         </div>
 
-        <!-- Section 3 - 꿀팁 -->
         <div id="section3" class="category" style="margin-left: 20px; margin-right: 20px;">
             <h2>🍯 꿀팁</h2>
             <div class="videos">
@@ -104,12 +96,13 @@
             </div>
         </div>
 
-        <!-- Section 4 - 음악 -->
         <div id="section4" class="category" style="margin-left: 20px; margin-right: 20px;">
             <h2>🎵 음악</h2>
             <div id="section4-1" class="subcategory">
                 <h3>🎧 음원</h3>
                 <div class="videos">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5RDL3WCQTK0?si=HWrsPfcjlGKmmt_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9D6XKwSUvqM?si=RYnlhzjMA3ktoh7G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
             <div id="section4-2" class="subcategory">
