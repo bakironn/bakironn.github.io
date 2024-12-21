@@ -6,7 +6,7 @@ food.addEventListener("click", () => {
     setTimeout(() => {
         food.src = "./image/after2.png";
         setTimeout(() => {
-            alert("햄스터가 먹이를 먹었어요! 햄스터를 쓰다듬어보세요. 🐹👈");
+            alert("햄스터가 먹이를 다 먹었어요! 햄스터를 쓰다듬어보세요. 🐹👈");
         }, 1000);
     }, 2000);
 });
@@ -18,6 +18,6 @@ hamster.addEventListener("click", () => {
     }, 500);
 });
 
-
-
-
+document.getElementById('fortuneButton').addEventListener('click', function() {
+    window.location.href = 'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%98%A4%EB%8A%98%EC%9D%98+%EC%9A%B4%EC%84%B8';
+});

@@ -39,24 +39,25 @@ body {
 }
 
 #sidebar ul li a:hover {
-    background-color: #0056b3;
+    background-color: #3bb1ff9e;
     color: white;
 }
 
 #nav {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 15px;
-    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 10px;
 }
 
+
 #white {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 15px;
-    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #letter {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 15px;
 }
 
@@ -102,7 +103,7 @@ body {
 }
 
 .video iframe {
-    width: 560px;
+    width: 560px;s
     height: 315px;
     border-radius: 15px;
 }
