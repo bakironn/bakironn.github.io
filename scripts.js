@@ -9,7 +9,6 @@
     food.addEventListener("click", () => {
         food.src = "./image/after.png"; // 먹힌 상태의 먹이 사진
         setTimeout(() => {
-            food.style.opacity = "0.5"; // 먹이를 반투명하게
             alert("햄스터가 먹이를 먹었어요! 햄스터를 쓰다듬어보세요");
         }, 500); // 약간의 딜레이 추가
     });
